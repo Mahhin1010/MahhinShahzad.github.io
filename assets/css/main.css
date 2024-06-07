@@ -4687,3 +4687,80 @@ input, select, textarea {
 		}
 
 	}
+
+	/* Main */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts article {
+    width: calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+
+.posts .image.fit {
+    height: 200px;
+    overflow: hidden;
+}
+
+.posts .image.fit img {
+    width: 100%;
+    height: auto;
+}
+
+/* Adjust padding and margin as necessary */
+
+/* Contact details */
+.split.contact section {
+    flex: 1;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.split.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.split.contact .icons.alt li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+/* Featured Post */
+.post.featured {
+    text-align: center;
+}
+
+/* Posts */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posts article {
+    width: calc(25% - 1rem);
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.posts .post-center {
+    width: calc(50% - 1rem);
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.posts .image.fit {
+    height: 200px;
+    overflow: hidden;
+}
+
+.posts .image.fit img {
+    width: 100%;
+    height: auto;
+}
